@@ -29,6 +29,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.main-container {
+    outline: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+}
+
 
 /* Frontend Mentor Footer */
 
