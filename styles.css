@@ -41,6 +41,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-width: 72rem;
+    height: 50rem;
 }
 
 .info-container {
@@ -75,6 +76,30 @@ body {
 
 .testamonial-container {
     grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testamonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testamonial-card:first-child {
+    align-self: flex-start;
+}
+
+.testamonial-card:last-child {
+    align-self: flex-end;
+}
+
+.card-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
