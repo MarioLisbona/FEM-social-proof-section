@@ -1,3 +1,27 @@
+/* =================ROOT========================*/
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-ponk: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+
+}
+/* =================ROOT========================*/
+
+
+/* =================RESETS========================*/
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+/* =================RESETS========================*/
+
 /* Frontend Mentor Footer */
 
 .attribution {
