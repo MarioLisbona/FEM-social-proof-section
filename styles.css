@@ -59,6 +59,12 @@ body {
     align-items: center;
 }
 
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .rating:first-child {
     align-self: flex-start;
 }
