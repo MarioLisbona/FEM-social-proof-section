@@ -45,10 +45,26 @@ body {
 
 .info-container {
     grid-area: 1 / 1 / 2 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .rating-container {
     grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating:first-child {
+    align-self: flex-start;
+}
+
+.rating:last-child {
+    align-self: flex-end;
 }
 
 .testamonial-container {
