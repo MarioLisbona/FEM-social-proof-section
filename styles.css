@@ -47,7 +47,6 @@ body {
     grid-template-rows: 1fr 1fr;
     max-width: 70rem;
     height: 36rem;
-    /* outline: 1px solid black; */
 }
 
 .info-container {
